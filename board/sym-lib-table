@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "elrs-lvs")(type "KiCad")(uri "${KIPRJMOD}/elrs-lvs.kicad_sym")(options "")(descr ""))
+)
