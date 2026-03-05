@@ -1393,284 +1393,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016)
@@ -3218,170 +2940,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -3772,648 +3330,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6542,18 +5458,7 @@
 		)
 		(uuid "0be8c0bd-b699-406f-a125-b59d33b23b53")
 	)
-	(text "test points for blind qfn soldering:\nall pins except power/rf"
-		(exclude_from_sim no)
-		(at 22.352 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d771f60-fc3a-4d0a-9dc0-1ec88d40bfe5")
-	)
-	(text "PICO-SIP pin should\nalready be 50R or close\nenough for wifi?"
+	(text "PICO-SIP pin should\nalready be 50R or close\nenough for wifi"
 		(exclude_from_sim no)
 		(at 80.264 65.532 0)
 		(effects
@@ -6621,7 +5526,7 @@
 	)
 	(text "A1.2"
 		(exclude_from_sim no)
-		(at 36.83 91.948 0)
+		(at 44.45 91.948 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6665,7 +5570,7 @@
 	)
 	(text "A1.3"
 		(exclude_from_sim no)
-		(at 36.83 94.488 0)
+		(at 44.45 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6676,7 +5581,7 @@
 	)
 	(text "Strap 0 When Boot=0 PD"
 		(exclude_from_sim no)
-		(at 114.3 91.694 0)
+		(at 107.188 91.694 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6751,9 +5656,20 @@
 		)
 		(uuid "875c3f81-80b8-4243-b97d-67d9f380b3c5")
 	)
+	(text "Note: !PG reset is required due to esp32\nbrowout detection observed unreliable by itself"
+		(exclude_from_sim no)
+		(at 93.726 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8efb027c-6c9f-47c3-b547-8491f5e3e887")
+	)
 	(text "A1.0"
 		(exclude_from_sim no)
-		(at 36.83 86.868 0)
+		(at 44.45 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6764,7 +5680,7 @@
 	)
 	(text "Prog/Bind"
 		(exclude_from_sim no)
-		(at 113.538 86.614 0)
+		(at 105.918 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6793,9 +5709,19 @@
 		)
 		(uuid "a378adc0-d9bd-46ee-a9a6-94c72ad7eb34")
 	)
-	(text "Limits safe 5v range, test 3.3\n(out of spec for led)"
+	(text "Note: chosen to have zero drop (100% duty cycle) operation to allow operation below 3.3v input"
 		(exclude_from_sim no)
-		(at 141.732 128.524 0)
+		(at 87.63 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae32aa43-37b5-4ae2-aba2-adc141b17d34")
+	)
+	(text "Note: 3.3v is out of spec for led, but works.\n(17v would definitely not work)"
+		(exclude_from_sim no)
+		(at 120.904 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6850,7 +5776,7 @@
 	)
 	(text "A1.1"
 		(exclude_from_sim no)
-		(at 36.83 89.408 0)
+		(at 44.45 89.408 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6894,7 +5820,7 @@
 	)
 	(text "Tower is for experiments with espnow.\notherwise use a trace squiggle"
 		(exclude_from_sim no)
-		(at 103.124 58.928 0)
+		(at 80.264 59.436 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6963,12 +5889,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11d42cc6-f112-4113-b1cd-2af2105886d6")
-	)
-	(junction
-		(at 140.97 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18198b37-7726-4eb6-9efa-b4dd41e2719d")
 	)
 	(junction
 		(at 185.42 83.82)
@@ -7049,12 +5969,6 @@
 		(uuid "5f64bd55-48b5-482f-a48f-35391902711c")
 	)
 	(junction
-		(at 114.3 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6432b6d2-a061-4dd7-8ef8-286f6ee9e431")
-	)
-	(junction
 		(at 189.23 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7073,12 +5987,6 @@
 		(uuid "740f58e9-bd3c-41ad-8e75-36e4e6a78cb1")
 	)
 	(junction
-		(at 107.95 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82890470-8279-48cf-86ca-5fe0e51c1568")
-	)
-	(junction
 		(at 53.34 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7095,12 +6003,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96d3998b-a943-4683-b119-f56f6fa2bd94")
-	)
-	(junction
-		(at 114.3 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "982a06f7-d8da-4853-b584-37e5e8b5a4fd")
 	)
 	(junction
 		(at 198.12 83.82)
@@ -7133,22 +6035,10 @@
 		(uuid "b66a7ca9-5166-4c73-b273-b00743806ae1")
 	)
 	(junction
-		(at 113.03 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b830cfa8-1e94-44d7-beb5-47267337ebd7")
-	)
-	(junction
 		(at 266.7 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba8e6cf2-f862-4a2d-935e-92a005356bc8")
-	)
-	(junction
-		(at 100.33 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc0accec-c3e3-4e81-8913-5f3d22fb9cb1")
 	)
 	(junction
 		(at 115.57 27.94)
@@ -7211,10 +6101,10 @@
 		(uuid "e9011466-1d0b-40f5-a033-4ce4403c79cb")
 	)
 	(junction
-		(at 107.95 33.02)
+		(at 53.34 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eae78bb0-942a-4796-ad0b-99cc5eba7e0d")
+		(uuid "eafbfc41-2472-4e6e-aef4-0db900948bef")
 	)
 	(junction
 		(at 25.4 82.55)
@@ -7241,8 +6131,40 @@
 		(uuid "faf156f0-e15d-4488-ad3d-2244eff3fef5")
 	)
 	(no_connect
+		(at 184.15 135.89)
+		(uuid "0a00df86-6ae1-4e5b-b344-60d85c8727ed")
+	)
+	(no_connect
+		(at 95.25 128.27)
+		(uuid "81251d00-e20e-43ac-aac9-5d586fcaafb5")
+	)
+	(no_connect
 		(at 99.06 30.48)
 		(uuid "a12ea007-9697-4688-8f7b-066775ce8ea2")
+	)
+	(no_connect
+		(at 175.26 105.41)
+		(uuid "d67e68b3-c651-4dde-8336-fffede4d22f9")
+	)
+	(no_connect
+		(at 175.26 116.84)
+		(uuid "db2ee321-c015-4ddb-b7c7-2303f80740cf")
+	)
+	(no_connect
+		(at 175.26 119.38)
+		(uuid "e7c656b6-6ff4-4a01-a49a-0f95d44cd585")
+	)
+	(no_connect
+		(at 99.06 33.02)
+		(uuid "ec34e155-f0fb-4534-aed0-c771013a002c")
+	)
+	(no_connect
+		(at 78.74 33.02)
+		(uuid "f78a44e9-11e8-4090-9768-903075d284fd")
+	)
+	(no_connect
+		(at 95.25 118.11)
+		(uuid "fbd496d8-cee9-4c6b-9449-e3dfc7c2da5c")
 	)
 	(bus_entry
 		(at 246.38 35.56)
@@ -7644,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 127 87.63)
+			(xy 95.25 87.63) (xy 127 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7714,16 +6636,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 175.26 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1612cb06-bf05-4bbc-925c-d18789f4bc17")
-	)
-	(wire
-		(pts
 			(xy 248.92 43.18) (xy 257.81 43.18)
 		)
 		(stroke
@@ -7784,7 +6696,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 100.33 68.58)
+			(xy 95.25 76.2) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7841,16 +6753,6 @@
 			(type default)
 		)
 		(uuid "26f5e929-2c02-4e55-9a3f-95d22956b794")
-	)
-	(wire
-		(pts
-			(xy 71.12 33.02) (xy 78.74 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae08d24-e7f2-4081-88b6-973f3b393a9b")
 	)
 	(bus
 		(pts
@@ -7914,16 +6816,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 115.57) (xy 114.3 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ffb49e8-cc54-414f-9cc7-f7d4e314ca46")
-	)
-	(wire
-		(pts
 			(xy 248.92 90.17) (xy 256.54 90.17)
 		)
 		(stroke
@@ -7931,16 +6823,6 @@
 			(type default)
 		)
 		(uuid "30d94d64-2e37-4cd7-8785-0025e76c9a09")
-	)
-	(wire
-		(pts
-			(xy 99.06 33.02) (xy 107.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d394f1-af38-470f-b7e7-4c1a74e94f5d")
 	)
 	(wire
 		(pts
@@ -8014,16 +6896,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 129.54) (xy 140.97 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d6ec58-0247-484d-b11e-e768153e38a5")
-	)
-	(wire
-		(pts
 			(xy 227.33 71.12) (xy 229.87 71.12)
 		)
 		(stroke
@@ -8091,6 +6963,16 @@
 			(type default)
 		)
 		(uuid "3e9f250c-c587-414b-87fc-c8ca043bedc2")
+	)
+	(wire
+		(pts
+			(xy 53.34 82.55) (xy 54.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e7034a-b3b8-4138-804e-d6f10d493dab")
 	)
 	(bus
 		(pts
@@ -8304,6 +7186,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 80.01) (xy 53.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cc8e65-7a4e-4ea2-a004-0b0c6ffb1869")
+	)
+	(wire
+		(pts
 			(xy 209.55 121.92) (xy 205.74 121.92)
 		)
 		(stroke
@@ -8362,16 +7254,6 @@
 		)
 		(uuid "5fe1d90f-9388-447e-a133-802bebd6d881")
 	)
-	(wire
-		(pts
-			(xy 114.3 115.57) (xy 114.3 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6033ca53-3109-4f6f-baa3-8e700336cd66")
-	)
 	(bus
 		(pts
 			(xy 246.38 43.18) (xy 246.38 45.72)
@@ -8401,16 +7283,6 @@
 			(type default)
 		)
 		(uuid "62062269-a101-4539-b29f-a1349bde862f")
-	)
-	(wire
-		(pts
-			(xy 114.3 100.33) (xy 114.3 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6318f5e8-1f78-41db-9655-e62d29f8f674")
 	)
 	(bus
 		(pts
@@ -8484,16 +7356,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 113.03 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69085f2f-2fb7-4b2d-ade0-a4535b658cce")
-	)
-	(wire
-		(pts
 			(xy 49.53 92.71) (xy 54.61 92.71)
 		)
 		(stroke
@@ -8534,16 +7396,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 114.3 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc7e690-221e-4044-a2ea-659908ca660e")
-	)
-	(wire
-		(pts
 			(xy 262.89 59.69) (xy 267.97 59.69)
 		)
 		(stroke
@@ -8574,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 115.57 27.94)
+			(xy 99.06 27.94) (xy 115.57 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8651,16 +7503,6 @@
 			(type default)
 		)
 		(uuid "768988f4-8e52-42fa-b3cc-487d499aa7eb")
-	)
-	(wire
-		(pts
-			(xy 100.33 68.58) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79dbe131-4e4a-44a0-920e-3fd8b4ace217")
 	)
 	(wire
 		(pts
@@ -8794,16 +7636,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 68.58) (xy 113.03 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac29df1-a08b-463a-b4ed-6e9d7d401730")
-	)
-	(wire
-		(pts
 			(xy 248.92 25.4) (xy 257.81 25.4)
 		)
 		(stroke
@@ -8854,16 +7686,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 114.3) (xy 205.74 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9130ff4d-d1e2-46f2-b575-c5d7bc924ede")
-	)
-	(wire
-		(pts
 			(xy 267.97 25.4) (xy 267.97 27.94)
 		)
 		(stroke
@@ -8911,16 +7733,6 @@
 			(type default)
 		)
 		(uuid "97dd592e-a33a-4446-b4b9-b0fa5e0397da")
-	)
-	(wire
-		(pts
-			(xy 217.17 111.76) (xy 205.74 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9946e58d-afc8-42a3-a8e6-fc0bdb80840d")
 	)
 	(wire
 		(pts
@@ -8994,7 +7806,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 95.25 68.58)
+			(xy 95.25 76.2) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9051,16 +7863,6 @@
 			(type default)
 		)
 		(uuid "a9a6c677-0419-4125-acb4-257c7924aeb7")
-	)
-	(wire
-		(pts
-			(xy 102.87 92.71) (xy 114.3 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ce5dc9-e35f-473a-ace8-9bae0584ea34")
 	)
 	(wire
 		(pts
@@ -9154,26 +7956,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f24fc8-652e-4d30-8a60-60b726c94bcc")
-	)
-	(wire
-		(pts
-			(xy 162.56 100.33) (xy 175.26 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5245ed7-dcce-4bdc-80f0-8d06ca340ac8")
-	)
-	(wire
-		(pts
 			(xy 261.62 105.41) (xy 266.7 105.41)
 		)
 		(stroke
@@ -9224,7 +8006,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 82.55) (xy 46.99 82.55)
+			(xy 25.4 82.55) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9274,6 +8056,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 80.01) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d0b971-d47a-41ec-8365-7793a5cf3f60")
+	)
+	(wire
+		(pts
 			(xy 157.48 67.31) (xy 161.29 67.31)
 		)
 		(stroke
@@ -9301,16 +8093,6 @@
 			(type default)
 		)
 		(uuid "c9504ab1-0728-44c4-8b48-630be59ed1ae")
-	)
-	(wire
-		(pts
-			(xy 102.87 107.95) (xy 114.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccc50c6c-277f-4184-b259-96cce6a9f3ab")
 	)
 	(wire
 		(pts
@@ -9494,16 +8276,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 107.95 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08e357e-6817-4bbd-b506-f248cc3576dd")
-	)
-	(wire
-		(pts
 			(xy 248.92 74.93) (xy 257.81 74.93)
 		)
 		(stroke
@@ -9644,16 +8416,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 100.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ee5f6c-bccb-47bf-99bb-e612ba9bca2a")
-	)
-	(wire
-		(pts
 			(xy 53.34 27.94) (xy 62.23 27.94)
 		)
 		(stroke
@@ -9671,16 +8433,6 @@
 			(type default)
 		)
 		(uuid "fd3ebc84-4c25-47cb-85b5-52749f4764a1")
-	)
-	(wire
-		(pts
-			(xy 217.17 116.84) (xy 205.74 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe72587c-9a9a-4970-841f-3464f311eee3")
 	)
 	(label "LVS2"
 		(at 254 86.36 180)
@@ -9701,16 +8453,6 @@
 			(justify right bottom)
 		)
 		(uuid "02bc6bea-f33a-4410-94d2-275e8f83ccd7")
-	)
-	(label "PWM8"
-		(at 102.87 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03ffd78c-bdfa-45d8-a4d8-dd2477cac2ba")
 	)
 	(label "PWM3"
 		(at 60.96 179.07 90)
@@ -9763,7 +8505,7 @@
 		(uuid "32805422-b684-468e-a172-c907b776f8a5")
 	)
 	(label "LVS5"
-		(at 102.87 138.43 0)
+		(at 95.25 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9773,7 +8515,7 @@
 		(uuid "352f7934-8ac4-4267-8fe4-c06a7c897c55")
 	)
 	(label "LVS4"
-		(at 41.91 95.25 180)
+		(at 49.53 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9803,7 +8545,7 @@
 		(uuid "3b0e1f17-9c3a-4291-bb35-b6d9f62fba04")
 	)
 	(label "RADIO_NSS"
-		(at 102.87 113.03 0)
+		(at 95.25 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9863,7 +8605,7 @@
 		(uuid "40233760-cfd6-4f9f-859a-98432004f3b5")
 	)
 	(label "BOOT"
-		(at 102.87 87.63 0)
+		(at 95.25 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9873,7 +8615,7 @@
 		(uuid "42470f34-8922-400c-aa8d-fc6f056de716")
 	)
 	(label "PWM4"
-		(at 102.87 135.89 0)
+		(at 95.25 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9903,7 +8645,7 @@
 		(uuid "47fa076e-38ee-4432-88e5-1f60f5e358fa")
 	)
 	(label "PWM7"
-		(at 46.99 123.19 180)
+		(at 54.61 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9913,7 +8655,7 @@
 		(uuid "4b125c5f-1ed4-4532-a006-bbcc7e218ce1")
 	)
 	(label "RADIO_RST"
-		(at 102.87 100.33 0)
+		(at 95.25 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9973,7 +8715,7 @@
 		(uuid "5d37da74-b41e-4bc3-a9d5-c444fd554f1c")
 	)
 	(label "PWM5"
-		(at 102.87 105.41 0)
+		(at 95.25 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9993,7 +8735,7 @@
 		(uuid "63bc2b3e-aa74-4c29-bf1f-69c851186add")
 	)
 	(label "LVS3"
-		(at 41.91 92.71 180)
+		(at 49.53 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10003,7 +8745,7 @@
 		(uuid "65aecc99-7652-4a55-b12b-3251d93d8435")
 	)
 	(label "LVS7"
-		(at 102.87 143.51 0)
+		(at 95.25 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10033,7 +8775,7 @@
 		(uuid "6c547929-6137-4c33-9de2-9ea3deb388fe")
 	)
 	(label "PWM6"
-		(at 102.87 102.87 0)
+		(at 95.25 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10043,7 +8785,7 @@
 		(uuid "6df9f6d3-17dc-42ac-a41e-5e27ac680423")
 	)
 	(label "PWM2"
-		(at 102.87 125.73 0)
+		(at 95.25 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10053,7 +8795,7 @@
 		(uuid "6e318bbe-48db-4efe-9ece-5a3aef6a4460")
 	)
 	(label "LVS1"
-		(at 41.91 87.63 180)
+		(at 49.53 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10073,7 +8815,7 @@
 		(uuid "74b5f999-5cd0-49be-8c44-a94b95a42bc3")
 	)
 	(label "RADIO_MISO"
-		(at 102.87 115.57 0)
+		(at 95.25 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10103,7 +8845,7 @@
 		(uuid "7978e935-ab6c-448d-828c-293fe79915fa")
 	)
 	(label "RADIO_SCK"
-		(at 102.87 107.95 0)
+		(at 95.25 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10163,7 +8905,7 @@
 		(uuid "99975d2c-4891-4b9d-8799-0b7d9a53194f")
 	)
 	(label "RADIO_DIO1"
-		(at 102.87 110.49 0)
+		(at 95.25 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10183,7 +8925,7 @@
 		(uuid "9c2a48f9-6fff-4ffc-bc06-aec70c0c6e8f")
 	)
 	(label "LVS2"
-		(at 41.91 90.17 180)
+		(at 49.53 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10203,7 +8945,7 @@
 		(uuid "a777419b-c019-497a-827c-df34cb3a5916")
 	)
 	(label "LVS6"
-		(at 102.87 140.97 0)
+		(at 95.25 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10243,7 +8985,7 @@
 		(uuid "b99d473b-5ba8-4ef2-949e-867f2f5de211")
 	)
 	(label "RADIO_MOSI"
-		(at 102.87 92.71 0)
+		(at 95.25 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10253,7 +8995,7 @@
 		(uuid "be8f0edc-9e1b-4f2b-8da5-1606669ae71f")
 	)
 	(label "SERIAL_RX"
-		(at 102.87 95.25 0)
+		(at 95.25 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10263,7 +9005,7 @@
 		(uuid "beca42bd-2c9e-4f42-b691-5fafeaddc5b8")
 	)
 	(label "PWM1"
-		(at 102.87 120.65 0)
+		(at 95.25 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10271,26 +9013,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1b74d95-eb78-471a-bfbe-35088ec46f3d")
-	)
-	(label "5V_FUSED"
-		(at 135.89 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c451bdb1-2930-430b-930a-9b7d6dbcac0e")
-	)
-	(label "LEDPWR"
-		(at 165.1 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5bcc492-246d-493a-87fe-170607f204c2")
 	)
 	(label "V_DCC"
 		(at 205.74 100.33 0)
@@ -10331,16 +9053,6 @@
 			(justify right bottom)
 		)
 		(uuid "c92b47e5-d83a-4ffc-ad27-98cad13b0742")
-	)
-	(label "RGB"
-		(at 165.1 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c99e8fb2-4f6c-48d0-aed2-dcf8d97ef5e8")
 	)
 	(label "LVS5"
 		(at 238.76 68.58 0)
@@ -10392,18 +9104,8 @@
 		)
 		(uuid "d3c4682a-f7a6-4d0c-9689-f1ea83bd2e06")
 	)
-	(label "VBAT_DET"
-		(at 267.97 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4f14213-cb25-42c9-b7d3-d5f537c74e90")
-	)
 	(label "PWM3"
-		(at 102.87 130.81 0)
+		(at 95.25 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10413,7 +9115,7 @@
 		(uuid "d50a8fc9-4c17-4913-ae12-657721de118d")
 	)
 	(label "LED_RGB"
-		(at 102.87 123.19 0)
+		(at 95.25 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10473,7 +9175,7 @@
 		(uuid "dde9d460-9cb8-4fb9-82a9-f48dc21a936d")
 	)
 	(label "PWM8"
-		(at 46.99 120.65 180)
+		(at 54.61 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10483,7 +9185,7 @@
 		(uuid "ddeff8c9-78e2-4de6-80b5-4f5e3c95ae42")
 	)
 	(label "RADIO_BUSY"
-		(at 102.87 97.79 0)
+		(at 95.25 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10493,7 +9195,7 @@
 		(uuid "df2d9b32-d5f1-4795-9c57-c74f8ae930cc")
 	)
 	(label "VS_5V"
-		(at 102.87 146.05 0)
+		(at 95.25 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10501,26 +9203,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0222f06-cc82-4c15-bf1a-7a83098695cc")
-	)
-	(label "LEDPWR"
-		(at 135.89 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3fb3d26-0248-40a6-b4ff-306cb83b30e8")
-	)
-	(label "PWM7"
-		(at 102.87 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e581ea08-e90c-415b-baa5-97488bd99cd2")
 	)
 	(label "LVS3"
 		(at 254 90.17 180)
@@ -10533,7 +9215,7 @@
 		(uuid "e826f491-48b2-4858-adf1-608a6fbd121a")
 	)
 	(label "SERIAL_TX"
-		(at 102.87 90.17 0)
+		(at 95.25 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10551,16 +9233,6 @@
 			(justify right bottom)
 		)
 		(uuid "ea53cf84-5530-41e5-902a-fdd77bc63fb2")
-	)
-	(label "VBAT_DET"
-		(at 102.87 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eaa679ae-636b-4f5f-af9d-7e4cd894625b")
 	)
 	(label "LVS2"
 		(at 238.76 60.96 0)
@@ -10593,7 +9265,7 @@
 		(uuid "f6ff7616-5acb-4be9-be7e-e8beab09b8f1")
 	)
 	(label "RESET"
-		(at 39.37 82.55 0)
+		(at 46.99 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10664,83 +9336,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 106.68 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0292db5a-2c8a-4cf5-9798-3cc86f4a0506")
-		(property "Reference" "L2"
-			(at 106.68 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 106.68 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 106.68 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4f5bf70c-28e4-4557-8ad9-77a79a219c1f")
-		)
-		(pin "1"
-			(uuid "2f3c1331-b979-4c63-aae6-f5b59585f197")
-		)
-		(instances
-			(project ""
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -11010,164 +9605,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 120.65 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b596a57-ee2b-4226-ad73-069803fb6946")
-		(property "Reference" "JP25"
-			(at 96.774 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8bdaa9c-6cd5-4e04-ade1-792c243c6d61")
-		)
-		(pin "1"
-			(uuid "90d2bac9-daa4-4fde-afc6-7065fa39411e")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f4bd0ed-0694-4c8f-ab93-e3a94666aed4")
-		(property "Reference" "TP3"
-			(at 48.514 125.476 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 53.086 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 54.61 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "620d407a-a2f9-40f8-87fa-4553604ab8f3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 259.08 90.17 270)
 		(unit 1)
@@ -11272,7 +9709,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 102.87 151.13 270)
+		(at 95.25 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11281,7 +9718,7 @@
 		(fields_autoplaced yes)
 		(uuid "116b9716-29d6-44ad-852b-8b8ea41ff98e")
 		(property "Reference" "#PWR026"
-			(at 99.06 151.13 0)
+			(at 91.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +9727,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 106.68 151.1299 90)
+			(at 99.06 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +9736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 151.13 0)
+			(at 95.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11308,7 +9745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 151.13 0)
+			(at 95.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11317,7 +9754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 102.87 151.13 0)
+			(at 95.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,79 +9769,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14479440-5215-45e4-81de-d3c041a4fe97")
-		(property "Reference" "TP20"
-			(at 223.52 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 218.694 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 217.17 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66613d0a-f7c0-4de9-ae7a-18e939ce1a07")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -11472,73 +9836,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1608dfba-7c2d-47b3-a843-a526af359cb8")
-		(property "Reference" "#PWR032"
-			(at 128.27 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfe3d21b-965b-4102-bc15-1fe0bcdb0d36")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11645,173 +9942,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "17adfb43-3e49-414e-a0f8-e256ef6b749a")
-		(property "Reference" "R9"
-			(at 118.11 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 118.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 118.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 118.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a14b1413-1532-4395-ab77-faa23c40cf68")
-		)
-		(pin "2"
-			(uuid "f28fd610-52be-4392-b62a-3fd4e0959275")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19b04848-6150-4e11-b6e3-44ddbbda6ec8")
-		(property "Reference" "TP16"
-			(at 155.956 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 161.036 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 162.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 162.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5ae9839-6f17-47e2-a25d-49edfaa4f1fb")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -11977,164 +10107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 97.79 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c52758c-4d30-4149-8f17-61fe3fbc5fd9")
-		(property "Reference" "JP16"
-			(at 96.774 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47fec6d7-49f5-4bb8-8af3-4ddc05202bd6")
-		)
-		(pin "1"
-			(uuid "90f90dd1-4917-405c-89d3-aca0604c23a5")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cb86c7c-09ed-4a69-9a21-fabddab6ee6d")
-		(property "Reference" "TP4"
-			(at 48.514 128.016 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 53.086 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 54.61 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01cebdb7-2d8d-4bed-81cd-9ff8bd289372")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 232.41 135.89 0)
 		(unit 1)
@@ -12241,270 +10213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 123.19 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e59eeb8-fc8b-44b5-81a2-7f4b829715e0")
-		(property "Reference" "JP26"
-			(at 96.774 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af627f6e-748a-454a-8f1e-8a1b483587d8")
-		)
-		(pin "1"
-			(uuid "1c9e0b83-1fa4-4f2a-ab5d-b6cdd229219b")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "207134b7-ba8e-4f4d-88db-38bac5829206")
-		(property "Reference" "R6"
-			(at 118.11 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 118.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 118.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 118.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51f63f08-2dd5-45ab-8ff2-9a0e057dc556")
-		)
-		(pin "2"
-			(uuid "af5dccac-c4f3-4905-b6b1-957f412bac0e")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 151.13 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "23f7f6e1-5139-4805-a62b-0adf1464e3a2")
-		(property "Reference" "JP36"
-			(at 96.774 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cbe4b799-a602-4ba4-bd66-74d8a148d122")
-		)
-		(pin "1"
-			(uuid "ea3df07d-cf4e-488f-ac0f-68e8cb7811f3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 259.08 97.79 270)
 		(unit 1)
@@ -12602,91 +10310,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 125.73 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "25845944-82c7-4977-8f8e-40cefe0b78cf")
-		(property "Reference" "JP27"
-			(at 96.774 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c98dc841-d6c7-4b72-8e3d-833a835c07bf")
-		)
-		(pin "1"
-			(uuid "622e97fd-2d23-4fa1-8f79-3764755b3e7c")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP27")
 					(unit 1)
 				)
 			)
@@ -13163,79 +10786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28db0e5d-a352-4a5d-a5e2-bc2c782cf663")
-		(property "Reference" "TP15"
-			(at 155.956 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 161.036 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 162.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 162.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "615e5812-1ea9-4f1d-b967-421c42960d53")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "elrs-lvs:TPSM82901SISR")
 		(at 73.66 30.48 0)
 		(unit 1)
@@ -13428,79 +10978,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 184.15 135.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c0fb38f-a5d9-4cdd-a289-a82a018883ee")
-		(property "Reference" "TP9"
-			(at 181.356 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 184.15 137.414 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 179.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 184.15 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 184.15 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "206b83dd-3ef3-4ffa-99b9-44550963e306")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13728,395 +11205,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 135.89 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "313479fe-588b-4e39-8aa7-9092e5c25803")
-		(property "Reference" "JP31"
-			(at 96.774 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "288d677f-0de4-465c-a6fc-406c84518be9")
-		)
-		(pin "1"
-			(uuid "3df4e2f6-05ef-4edd-9952-a813266adb38")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3184644b-c2ff-484b-b4be-afec9c0fe95e")
-		(property "Reference" "TP19"
-			(at 223.52 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 218.694 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 217.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 217.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dad10257-ca17-4937-8579-ad9a12fcd4f5")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 130.81 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "31d57466-9b6f-4fff-8c00-0ca3e553ba7d")
-		(property "Reference" "JP29"
-			(at 96.774 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3bc71d3b-3fa7-4950-9c90-b18726f44911")
-		)
-		(pin "1"
-			(uuid "96344b7c-c864-4433-ad5a-6eda967ebffc")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33274f29-5675-4ab2-9983-310229052360")
-		(property "Reference" "TP12"
-			(at 51.054 148.336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 55.626 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 57.15 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 57.15 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39945d57-629d-45a3-b0fb-f7c4677848f3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34f565cc-c9c0-46d0-91cc-85d1b397d9aa")
-		(property "Reference" "TP11"
-			(at 51.054 145.796 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 55.626 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1717a1bc-3510-45cc-abe9-7055cba529e0")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -14561,170 +11649,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 271.78 21.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b0f8e21-96e4-4d36-b10d-86977453ce4e")
-		(property "Reference" "JP41"
-			(at 269.494 20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5aba452-eabf-403a-8b37-de86571ff636")
-		)
-		(pin "1"
-			(uuid "46518005-c717-42eb-81f2-891c47f2dd0c")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 113.03 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e95c599-89aa-4bdc-89eb-25a8ce8a4ce6")
-		(property "Reference" "C23"
-			(at 115.57 71.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 115.57 73.6662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_NP"
-			(at 113.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 113.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 113.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "225afdc4-854f-402e-88c3-8a281c1b909d")
-		)
-		(pin "1"
-			(uuid "3bb5c45a-f972-46cd-b8b4-79637824c2a8")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 77.47 77.47 0)
 		(unit 1)
@@ -15127,91 +12051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 92.71 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "45c11693-e612-4eb0-a7ca-5bba2805ac5d")
-		(property "Reference" "JP14"
-			(at 96.774 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b549fd8-b569-4f65-abca-d4fec55734cb")
-		)
-		(pin "1"
-			(uuid "9bafdbff-0f37-4b13-81e1-c565921000a8")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 140.97 0)
 		(unit 1)
@@ -15279,72 +12118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4769365f-54d2-46f9-b4d0-8aef018725b1")
-		(property "Reference" "#PWR070"
-			(at 113.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d696aa57-5f0e-479b-af1a-1c5acabec1f6")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 140.97 24.13 0)
 		(unit 1)
@@ -15405,274 +12178,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50ebf7dc-9022-47f8-a0a0-7751414e4494")
-		(property "Reference" "#PWR038"
-			(at 128.27 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fe41e57-3347-439a-8628-33c95fc41c29")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 146.05 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51deadaf-d4e8-46ed-b222-33e87d7d8c55")
-		(property "Reference" "#PWR049"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 149.86 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5e66f24-6b9e-408a-9727-6627618a3578")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 121.92 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c33e01-2d29-431b-a92d-524bc78cf87b")
-		(property "Reference" "#PWR033"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 125.73 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1148b9a5-35fe-4f51-b23e-eb2cc2d10f2a")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c5f8b1-b655-4ef4-a845-ab28e221567a")
-		(property "Reference" "#PWR034"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1be6712-a75e-4483-8c08-ff5eabde64fd")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16449,91 +12954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 110.49 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f528b27-35a1-4305-b6e0-d2b4d37d9034")
-		(property "Reference" "JP21"
-			(at 96.774 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb9f0a5c-cc43-4091-905c-e14b6a6d78e1")
-		)
-		(pin "1"
-			(uuid "76f8d6f9-743a-4814-88cd-3db52c247289")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "2450FM07D0034_3")
 		(lib_id "Anyleaf Shared:2450FM07D0034")
 		(at 219.71 133.35 0)
@@ -16908,152 +13328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.26 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6450ad1e-d18f-416d-ad57-0fd29eb37076")
-		(property "Reference" "TP7"
-			(at 169.164 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 173.736 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 175.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e1dbd8f-c3a9-4544-9c34-00a65675cb53")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.26 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "649a0e89-9a71-42d4-9d01-2f7e0a0393c3")
-		(property "Reference" "TP8"
-			(at 169.164 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 173.736 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 175.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 175.26 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "801f86af-7f30-43da-921a-ac1891eb7051")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 223.52 97.79 90)
 		(unit 1)
@@ -17387,79 +13661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "677c094a-37aa-4f54-96da-23973fe946ea")
-		(property "Reference" "TP2"
-			(at 48.514 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 53.086 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 54.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 54.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9cde7ff-9771-4e64-b874-88cdbea6f209")
-		)
-		(instances
-			(project ""
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 130.81 181.61 0)
 		(unit 1)
@@ -17660,100 +13861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "68a68162-ecd5-492e-b88b-c118c5c13432")
-		(property "Reference" "R8"
-			(at 112.776 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b85cfaf-e78a-4738-bb90-9b3e5ab4f870")
-		)
-		(pin "2"
-			(uuid "cd82537c-b6d2-4377-96a4-0e46c3f314c7")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 227.33 76.2 90)
 		(unit 1)
@@ -17821,93 +13928,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 45.72 95.25 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ab56575-e5be-4aa8-92c5-23a43f28dd80")
-		(property "Reference" "JP4"
-			(at 43.434 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7fee510-5d5a-46e4-9d02-42946c67e112")
-		)
-		(pin "1"
-			(uuid "be405f01-2c88-485f-9430-0b9bab0569e4")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 275.59 21.59 0)
+		(at 267.97 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17916,7 +13938,7 @@
 		(fields_autoplaced yes)
 		(uuid "700d05b5-3156-4f74-bc11-69bbc264eb05")
 		(property "Reference" "#PWR068"
-			(at 275.59 25.4 0)
+			(at 267.97 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17925,7 +13947,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 275.59 16.51 0)
+			(at 267.97 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17933,7 +13955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 21.59 0)
+			(at 267.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,7 +13964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 21.59 0)
+			(at 267.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17951,7 +13973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 275.59 21.59 0)
+			(at 267.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17966,91 +13988,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 45.72 90.17 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "71591eb0-459d-489c-a2f3-a472e5fee784")
-		(property "Reference" "JP2"
-			(at 43.434 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "79596f17-697c-42a6-8c5a-9be7010ac5d7")
-		)
-		(pin "1"
-			(uuid "d6031e38-39ae-4eed-8c9f-eb1e6a89a910")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -18165,180 +14102,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 115.57 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "71927b5b-0520-4791-956d-56225c540dbb")
-		(property "Reference" "JP23"
-			(at 96.774 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d847c7b-2cf7-4a56-8f26-f42134fc9163")
-		)
-		(pin "1"
-			(uuid "6be95217-740b-423a-963f-d16c2d8832c0")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 140.97 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "71dd7160-297a-487c-a116-9c70e6f92e29")
-		(property "Reference" "JP37"
-			(at 140.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 140.97 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP_123"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "644c70a0-84f5-4ebc-b166-4b377a91d785")
-		)
-		(pin "2"
-			(uuid "40e29fe3-f03b-4a1c-8c4e-ccd00be017fc")
-		)
-		(pin "3"
-			(uuid "a13b7300-8993-41e8-ae6b-81d80b4e7896")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP37")
 					(unit 1)
 				)
 			)
@@ -18510,158 +14273,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 121.92 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76c4edb2-ff90-49a5-baac-4ef69b8c53ce")
-		(property "Reference" "#PWR037"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 125.73 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "451d0651-6661-41a1-8d20-0744c035d1e3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 95.25 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "771a2081-c00e-4bab-98de-245a15d85bdd")
-		(property "Reference" "JP15"
-			(at 96.774 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f2fc7cf-0775-4e91-b7b7-d91e3b9bc231")
-		)
-		(pin "1"
-			(uuid "d7637838-301d-477a-aee3-5b50fc67c389")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -19513,249 +15124,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ffa5cf4-e866-42d7-ad2a-e0815c730168")
-		(property "Reference" "TP5"
-			(at 48.514 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 53.086 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 54.61 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e68da16f-2282-4f5f-ba71-40c387d516ff")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 107.95 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "81679fa2-a31c-46bd-8605-936997576357")
-		(property "Reference" "JP20"
-			(at 96.774 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8180a7e5-00fa-4024-a670-222cfa0b6ca3")
-		)
-		(pin "1"
-			(uuid "6d6af214-c365-4ec5-9b1c-55ce432b1fc3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 105.41 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "81b150dd-d01a-4bb9-9c65-f0d177c38320")
-		(property "Reference" "JP19"
-			(at 96.774 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ceddeb9-e7fb-49b5-8205-7498831bc2d0")
-		)
-		(pin "1"
-			(uuid "05afb390-66be-4741-9650-6f05e8196925")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP19")
 					(unit 1)
 				)
 			)
@@ -20674,91 +16042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 113.03 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c38ec70-728a-4a06-876c-d4e0d74f0365")
-		(property "Reference" "JP22"
-			(at 96.774 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b2c17b1-e347-4451-b973-35731e94ed4f")
-		)
-		(pin "1"
-			(uuid "e4f037ec-87c9-411e-ae04-cb37b758ac2b")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 86.36 193.04 270)
 		(unit 1)
@@ -20920,94 +16203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "8e93fa16-9127-46e9-b7b5-3907ace6e232")
-		(property "Reference" "R5"
-			(at 110.49 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 110.49 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd109dd4-6d24-41bf-9885-3a50ec1719d0")
-		)
-		(pin "1"
-			(uuid "782a53df-7bde-44da-a933-416e1cf14cb8")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 147.32 67.31 0)
 		(mirror y)
@@ -21123,100 +16318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8f52debc-4b0c-4f20-8478-5acda055b1f7")
-		(property "Reference" "R11"
-			(at 122.174 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b96ec6d9-89b3-449f-9071-ec948e76de48")
-		)
-		(pin "2"
-			(uuid "c6aa9e36-ba4b-4ddc-a5f1-e143a1e5eab2")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 35.56 0)
 		(unit 1)
@@ -21277,179 +16378,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "91457ac5-0c7d-4b65-aa4f-1c069e22b379")
-		(property "Reference" "R4"
-			(at 110.49 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 110.49 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 107.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e56183a5-796f-49f2-a38e-0c0ac6e96fec")
-		)
-		(pin "2"
-			(uuid "b724dc2c-b4a7-40a3-a9c3-9eee906fad0e")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 50.8 120.65 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "91b57163-f74e-4590-a99e-9f10ddabeb83")
-		(property "Reference" "JP7"
-			(at 48.514 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e960650d-6d66-4c04-98b5-6a2eb61c3c95")
-		)
-		(pin "1"
-			(uuid "ddcd50e8-f675-474a-bb61-0822759744be")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -21704,7 +16632,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 115.57 68.58 0)
+		(at 101.6 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21713,7 +16641,7 @@
 		(fields_autoplaced yes)
 		(uuid "932ebb71-ebc4-46a4-b1a7-85711293891f")
 		(property "Reference" "J9"
-			(at 115.0504 62.23 0)
+			(at 101.0804 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21721,7 +16649,7 @@
 			)
 		)
 		(property "Value" "Little Tower"
-			(at 115.0504 64.77 0)
+			(at 101.0804 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21729,7 +16657,7 @@
 			)
 		)
 		(property "Footprint" "elrs-lvs:Molex_47948-0001_U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21738,7 +16666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21747,7 +16675,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21756,7 +16684,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21765,7 +16693,7 @@
 			)
 		)
 		(property "Mouser" " 538-47948-0001 "
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21774,7 +16702,7 @@
 			)
 		)
 		(property "Part" "47948-0001"
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21783,7 +16711,7 @@
 			)
 		)
 		(property "LCSC Seikio Epson" ""
-			(at 115.57 68.58 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22235,72 +17163,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 71.12 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a8f443d-e695-49b8-b007-79c2d2c3ee8b")
-		(property "Reference" "#PWR014"
-			(at 71.12 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cff8b24-b19d-4001-8104-3c79f84129aa")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 44.45 27.94 90)
 		(unit 1)
@@ -22689,79 +17551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3177a58-0a16-42a2-924e-97f9e44120c3")
-		(property "Reference" "TP10"
-			(at 51.054 143.256 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 55.626 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 57.15 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c041353-bc30-4f33-bf80-6314410c572d")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 260.35 43.18 90)
 		(unit 1)
@@ -22850,240 +17639,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 100.33 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a492b9e5-b1fc-4a4f-8d4e-d756490d8c7c")
-		(property "Reference" "JP17"
-			(at 96.774 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dff1dfdb-b2b7-4d97-bf65-1e8df6d6217f")
-		)
-		(pin "1"
-			(uuid "e447e30a-a4f0-4581-bd67-620c5212f6eb")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8c0a89e-721d-45b4-a184-c3cd25e4e3da")
-		(property "Reference" "TP18"
-			(at 223.52 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 218.694 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dd69260-41ca-4faa-bcf3-e707947a4452")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 99.06 133.35 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9facc8b-c743-4ef7-a2dd-a2dc8549947c")
-		(property "Reference" "JP30"
-			(at 96.774 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NP"
-			(at 99.06 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_NP"
-			(at 99.06 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 99.06 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "080245e9-a785-46a7-8d45-53d3e13d4b3d")
-		)
-		(pin "1"
-			(uuid "2c3ec37c-9abf-4e95-b4ba-8d7e914e4693")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP30")
 					(unit 1)
 				)
 			)
@@ -23275,91 +17830,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 50.8 123.19 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ada6c743-80c8-4d3d-b3b5-9bfa49590370")
-		(property "Reference" "JP8"
-			(at 48.514 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e384ea60-011c-4f7f-8988-502c2f970609")
-		)
-		(pin "1"
-			(uuid "ae521dfa-6155-4238-b239-bd6935d7ba65")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -23708,32 +18178,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 45.72 92.71 0)
+		(lib_id "power:+3.3V")
+		(at 140.97 129.54 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b20790c8-79dd-4dd8-b0f2-cce0e91ad2ec")
-		(property "Reference" "JP3"
-			(at 43.434 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 45.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 45.72 92.71 0)
+		(fields_autoplaced yes)
+		(uuid "b37bc545-c33d-4f52-9764-e38e10b1a41f")
+		(property "Reference" "#PWR014"
+			(at 140.97 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23741,8 +18196,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 92.71 0)
+		(property "Value" "+3.3V"
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23750,8 +18213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 45.72 92.71 0)
+		(property "Datasheet" ""
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23759,34 +18222,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 45.72 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Part" "DNP"
-			(at 45.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c99b7952-f862-4024-8b93-3f05f69095b8")
 		)
 		(pin "1"
-			(uuid "8c236999-43e3-4062-9b29-89ea1d1d8a7e")
+			(uuid "aab29a42-db27-4126-b271-2ad53b252da0")
 		)
 		(instances
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP3")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -24143,157 +18594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 45.72 87.63 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b760bb06-b922-4d06-abc8-c83d286c956a")
-		(property "Reference" "JP1"
-			(at 43.434 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 45.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "687491b9-0c01-4c62-9aea-1e6037aa0346")
-		)
-		(pin "1"
-			(uuid "544bcae3-40a2-45f2-be8e-4c2de1983fca")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7cb3785-2aff-4242-b0a6-571af88107a8")
-		(property "Reference" "#PWR069"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "634b1a69-d500-42aa-b75c-3075daecdbf9")
-		)
-		(instances
-			(project ""
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 130.81 90)
 		(unit 1)
@@ -24355,73 +18655,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb2bbd33-654a-4ede-91a4-95e03d3fd0a4")
-		(property "Reference" "#PWR035"
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04ac413a-6dec-4731-9030-89488d0170a3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -24707,149 +18940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be726923-ce2c-40ce-8322-82501307ad48")
-		(property "Reference" "#PWR052"
-			(at 158.75 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fb53e7c-39b4-46f0-86c0-e31081364039")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 99.06 128.27 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c08fece2-b295-4c23-88b1-2f004de3655f")
-		(property "Reference" "JP28"
-			(at 96.774 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NP"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_NP"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21dc5335-9614-447c-a59a-305fa1aae627")
-		)
-		(pin "1"
-			(uuid "8a464600-38ff-4d0d-9120-26a7dc2d1ec9")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 260.35 35.56 90)
 		(unit 1)
@@ -25032,79 +19122,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4372c0d-85d7-4ddd-990f-ed368d814890")
-		(property "Reference" "TP14"
-			(at 155.956 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 161.036 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ce3de29-0ee3-4272-9d70-8f78ac50a5a2")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -25599,264 +19616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 100.33 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c958a57f-fa89-4bb6-93e2-c6a8833ec41d")
-		(property "Reference" "C22"
-			(at 102.87 71.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 102.87 73.6662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_NP"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bff01827-5989-49e3-9b0d-9d67048b1260")
-		)
-		(pin "1"
-			(uuid "7b1e7981-dc80-4e2d-89cc-bfbe44e82686")
-		)
-		(instances
-			(project ""
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 146.05 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9b79be5-bffe-465c-9dad-1630dd53baa5")
-		(property "Reference" "JP35"
-			(at 96.774 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da0a0d7a-f974-4af6-930c-d07331c8c119")
-		)
-		(pin "1"
-			(uuid "9869969b-9f62-4cc0-a977-18ae539ac570")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ca20bb12-826e-4962-b421-1638aa3e14d1")
-		(property "Reference" "R7"
-			(at 118.11 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66e66bc1-4daf-49ba-ad41-788f31623cd9")
-		)
-		(pin "2"
-			(uuid "53f718ff-d031-4332-a84f-13ab7c5cc89a")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 232.41 63.5 90)
 		(unit 1)
@@ -26155,7 +19914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 68.58 90)
+		(at 104.14 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26164,7 +19923,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc4eee2b-e045-4bc4-a34b-22ffb561266e")
 		(property "Reference" "#PWR023"
-			(at 124.46 68.58 0)
+			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26173,7 +19932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 68.5799 90)
+			(at 107.95 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26182,7 +19941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 68.58 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26191,7 +19950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 68.58 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26200,7 +19959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 68.58 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26215,337 +19974,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 50.8 82.55 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "cce82d79-16dd-4754-b783-8b7cb35b35b8")
-		(property "Reference" "JP5"
-			(at 48.514 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "29d986d2-1c05-4344-a5f8-c98f3d5dd64c")
-		)
-		(pin "1"
-			(uuid "bf70b2d5-0308-48a8-ba91-7ae638a3233e")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 138.43 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccebd223-7fa5-4d95-b4af-6e5a0590d3ce")
-		(property "Reference" "JP32"
-			(at 96.774 137.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ce69bbe-b002-4276-90d0-208b8d10ae30")
-		)
-		(pin "1"
-			(uuid "2977dc1d-fa03-4602-b728-59fbc2ff109a")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 99.06 118.11 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd29b192-7997-412d-84b3-af662a1e4fcf")
-		(property "Reference" "JP24"
-			(at 96.774 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NP"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_NP"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1618ce1d-9281-4f19-af21-dc46b2d17cfa")
-		)
-		(pin "1"
-			(uuid "ebb4037f-259d-4a34-b424-264e08b7a8a3")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 140.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd67f7fc-84c2-46e0-84bc-75366f16730e")
-		(property "Reference" "JP33"
-			(at 96.774 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c7a3417-1c62-4c21-b976-4a144cc5c7b2")
-		)
-		(pin "1"
-			(uuid "c36d9f50-57f0-4163-9fee-d22c9de07aae")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP33")
 					(unit 1)
 				)
 			)
@@ -26660,161 +20088,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.26 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf3db2b2-fe8c-460b-be28-4059ce80a251")
-		(property "Reference" "TP6"
-			(at 169.164 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 173.736 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 175.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6533c27d-8e07-435a-aa30-5ea54375f5d5")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 170.18 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf75e4b1-82ab-4eba-8d60-b14091d64815")
-		(property "Reference" "J11"
-			(at 172.72 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Holes"
-			(at 172.72 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 170.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 170.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "187456c9-b257-41d4-8858-7ee5b8654bd7")
-		)
-		(pin "3"
-			(uuid "8cbc66f0-985e-4917-a99f-cfc285ae6c08")
-		)
-		(pin "1"
-			(uuid "dabc90e0-7475-486e-8294-cc1f11389833")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -27253,91 +20526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 102.87 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d636bbb3-2c20-4913-a825-0c3875608f3f")
-		(property "Reference" "JP18"
-			(at 96.774 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39622d33-ba9c-4a4d-ae33-349e515dcf02")
-		)
-		(pin "1"
-			(uuid "9b72475f-d560-4f48-bf25-3de8b5398792")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 140.97 137.16 0)
 		(unit 1)
@@ -27612,94 +20800,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "dcd20454-2a42-4232-80d5-9206d5e2c912")
-		(property "Reference" "C5"
-			(at 73.66 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 73.66 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 71.12 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b651ce8-53ef-4189-99ec-5986d0a1be02")
-		)
-		(pin "1"
-			(uuid "77dab01b-7971-41fb-af7d-987a55489a82")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -28053,242 +21153,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8579597-0b9a-4c9e-a127-f9fe6176845c")
-		(property "Reference" "#PWR027"
-			(at 107.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a530a8c8-1843-445e-89a0-99567a102b48")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 143.51 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "eaf6754b-1a14-4e3a-afb3-6b841a8c63d1")
-		(property "Reference" "JP34"
-			(at 96.774 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1c3b2d5-2856-42f3-8b27-15b4d0dcfce3")
-		)
-		(pin "1"
-			(uuid "4929aa38-71b4-432f-8e96-7824a950daf0")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 87.63 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "edc4413f-d0d1-4ff3-8163-a91601b9a33c")
-		(property "Reference" "JP12"
-			(at 96.774 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e0cb34e6-2159-4dd7-8de0-19f57933ada2")
-		)
-		(pin "1"
-			(uuid "905d4082-3676-4c6c-bc1b-aab95aa8cc50")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -28921,173 +21785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6f7ad4b-3ee0-433e-b37e-60ee24151557")
-		(property "Reference" "TP13"
-			(at 51.054 150.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 55.626 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:TestPoint_Pad_D0.25mm"
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bd7f120-27da-446c-a393-f586e5f3da15")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "f80ba34d-9005-44c2-8c49-e7423b213756")
-		(property "Reference" "R12"
-			(at 112.268 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 118.11 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da73b696-156a-4b02-bc7a-aa3715586284")
-		)
-		(pin "2"
-			(uuid "44a0281f-c0d3-4c16-bcd6-caf7146ce87b")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 88.9 181.61 0)
 		(unit 1)
@@ -29403,91 +22100,6 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 99.06 90.17 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd1f6ad8-c054-4e54-a524-21e4cfc63fab")
-		(property "Reference" "JP13"
-			(at 96.774 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JP"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "elrs-lvs:R_0201_0603_JP"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "DNP"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "103da075-f0c3-46c7-8014-ed46f29cbad3")
-		)
-		(pin "1"
-			(uuid "67120223-d7a5-43e7-975d-43b9e8208245")
-		)
-		(instances
-			(project "elrs-lvs"
-				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
-					(reference "JP13")
 					(unit 1)
 				)
 			)
