@@ -9204,7 +9204,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 161.29 72.39)
+			(xy 157.48 64.77) (xy 161.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -9274,7 +9274,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 69.85) (xy 161.29 69.85)
+			(xy 157.48 67.31) (xy 161.29 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9843,7 +9843,7 @@
 		(uuid "3d197f7d-0001-4a44-88cb-ac2064a3adfc")
 	)
 	(label "SERIAL_TX"
-		(at 161.29 72.39 0)
+		(at 161.29 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10453,7 +10453,7 @@
 		(uuid "dbd77fde-833a-42ee-a113-977d7fbe9004")
 	)
 	(label "SERIAL_RX"
-		(at 161.29 69.85 0)
+		(at 161.29 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17294,7 +17294,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 154.94 72.39 90)
+		(at 154.94 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17302,7 +17302,7 @@
 		(dnp no)
 		(uuid "66ed3c59-b5d5-4695-9c0f-6229eed1175c")
 		(property "Reference" "R48"
-			(at 158.75 71.374 90)
+			(at 158.75 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17310,7 +17310,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 154.94 72.39 90)
+			(at 154.94 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17318,7 +17318,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 72.39 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17327,7 +17327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 72.39 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17336,7 +17336,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 72.39 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17345,7 +17345,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-07100RL/5895570"
-			(at 154.94 72.39 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17354,7 +17354,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 154.94 72.39 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +17363,7 @@
 			)
 		)
 		(property "Part" "AC0402JR-07100RL"
-			(at 154.94 72.39 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22369,7 +22369,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 154.94 69.85 90)
+		(at 154.94 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22377,7 +22377,7 @@
 		(dnp no)
 		(uuid "9e4e712d-f6e6-4d62-97c0-5fe933075318")
 		(property "Reference" "R47"
-			(at 158.75 68.834 90)
+			(at 158.75 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22385,7 +22385,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 154.94 69.85 90)
+			(at 154.94 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22393,7 +22393,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 69.85 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22402,7 +22402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 69.85 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22411,7 +22411,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 69.85 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22420,7 +22420,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-07100RL/5895570"
-			(at 154.94 69.85 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22429,7 +22429,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 154.94 69.85 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22438,7 +22438,7 @@
 			)
 		)
 		(property "Part" "AC0402JR-07100RL"
-			(at 154.94 69.85 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25466,7 +25466,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 152.4 67.31 270)
+		(at 152.4 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25475,7 +25475,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8816b46-f6d6-48a7-9027-8456f4a9d15d")
 		(property "Reference" "#PWR051"
-			(at 148.59 67.31 0)
+			(at 148.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25484,7 +25484,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 156.21 67.3099 90)
+			(at 156.21 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25493,7 +25493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 67.31 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25502,7 +25502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 67.31 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25511,7 +25511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 67.31 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26822,7 +26822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 64.77 90)
+		(at 152.4 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26831,7 +26831,7 @@
 		(fields_autoplaced yes)
 		(uuid "d07fd4e0-416c-49b4-9ff8-6c63c42bc5e0")
 		(property "Reference" "#PWR050"
-			(at 158.75 64.77 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26840,7 +26840,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 64.7699 90)
+			(at 156.21 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26849,7 +26849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 64.77 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26858,7 +26858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 64.77 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26867,7 +26867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 64.77 0)
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
