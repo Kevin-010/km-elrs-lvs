@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x03_P2.54mm_NoSilk"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x03 2.54mm single row")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "840b1083-fa5a-4072-9eb0-7342e96d093b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,45 +55,16 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 6.85)
+	(fp_rect
+		(start -0.6 -0.6)
+		(end 0.6 5.7)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "76c67b9f-3f15-4145-bbbc-8312e5795846")
-	)
-	(fp_line
-		(start -1.8 6.85)
-		(end 1.8 6.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "56a0eaa8-1f42-4824-9fc4-0cbfa375ec08")
-	)
-	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "757b6603-0fa3-41f4-942f-2ab155c45604")
-	)
-	(fp_line
-		(start 1.8 6.85)
-		(end 1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0624b2c1-b80d-48b5-9bf7-4536c6317e1c")
+		(uuid "1c80dd6a-00bc-4294-a7a3-11494c848b0b")
 	)
 	(fp_line
 		(start -1.27 -0.635)
@@ -193,6 +151,7 @@
 		(remove_unused_layers no)
 		(uuid "7072b420-9990-4d8f-a6b8-3c72e84d3433")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)

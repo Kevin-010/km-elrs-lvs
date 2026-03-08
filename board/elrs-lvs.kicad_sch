@@ -21909,7 +21909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal"
+		(property "Footprint" "elrs-lvs:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal_Zero_Clearance"
 			(at 222.25 66.04 0)
 			(effects
 				(font
