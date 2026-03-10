@@ -5480,6 +5480,17 @@
 		)
 		(uuid "106cea77-f2ab-4a33-9023-093eb3f06243")
 	)
+	(text "V2: invert serial connector pinout (to match radiomaster),\nremove test points, re-layout for single sided and larger (cheaper) clearances"
+		(exclude_from_sim no)
+		(at 177.8 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1f608c80-7315-4387-b26c-d09d11103730")
+	)
 	(text "VSET Open\n3.3v (ds 7-3)"
 		(exclude_from_sim no)
 		(at 99.822 25.4 0)
