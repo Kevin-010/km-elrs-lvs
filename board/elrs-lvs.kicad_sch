@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ELRS-LVS")
-		(date "2024-09-14")
-		(rev "1")
+		(date "2026-03-09")
+		(rev "2")
 		(company "Kevin Malec")
 	)
 	(lib_symbols
