@@ -1,7 +1,7 @@
 (footprint "2450FM07D0034"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.johansontechnology.com/datasheets/2450FM07D0034/2450FM07D0034.pdf")
 	(tags "Filter")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c14feeec-fc34-45c6-b931-e52ccfacef6d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,7 +55,7 @@
 		)
 	)
 	(property "Alt part number" "2450FM07A0029T"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d884b48c-7bb9-4492-8772-2bcba11340a9")
@@ -80,7 +67,7 @@
 		)
 	)
 	(property "Alt part number:" "2450FM07A0029T"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3e3cc353-3cc5-4890-bb51-ff647724565a")
@@ -92,7 +79,7 @@
 		)
 	)
 	(property "Digikey" "712-1654-2-ND"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2466e867-4c36-4c38-9982-bb4eebd4cb5c")
@@ -104,7 +91,7 @@
 		)
 	)
 	(property "Mouser" "609-2450FM07D0034T"
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2bcddcf0-08ee-483a-8392-4d58fd5b23ca")
@@ -115,7 +102,6 @@
 			)
 		)
 	)
-	(solder_mask_margin 0.1)
 	(clearance 0.1)
 	(attr smd)
 	(fp_line
@@ -232,27 +218,28 @@
 	(pad "1" smd rect
 		(at -0.6 0)
 		(size 0.55 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "de82d358-cf57-4404-91a7-0022d74bb1df")
 	)
 	(pad "2" smd rect
 		(at 0 0.35)
 		(size 0.3 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef44fb56-4d89-474f-86f7-681748c423e1")
 	)
 	(pad "3" smd rect
 		(at 0.6 0)
 		(size 0.55 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "90cab234-ecb8-4b1c-aafe-f110f876cc60")
 	)
 	(pad "4" smd rect
 		(at 0 -0.35)
 		(size 0.3 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c03dd62e-57d0-4d32-8562-17e96276f2c7")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 		(offset
 			(xyz 0 0 0)
