@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-03-09T22:31:33-0500 ###
+### Footprint positions - created on 2026-03-11T20:04:49-0500 ###
 ### Printed by KiCad version 9.0.7-9.0.7~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -26,7 +26,7 @@ C21       100n            C_0402_1005Metric                                     
 D1        17v             US2H_TOS                                              11.4700    -2.6527   90.0000  top
 D2        3.3v            D_SOD-323                                             23.2400   -19.8400  180.0000  top
 D3        Power           LED_0603_1608Metric                                   20.1000    -3.2000    0.0000  top
-D4        WS2812B         LED-WS2812B                                           13.7900   -13.9300  -90.0000  top
+D4        WS2812B_2020    LED-WS2812B                                           13.7900   -13.9300  -90.0000  top
 F1        500ma           C_1210_3225Metric                                     12.7500    -6.9500   90.0000  top
 J9        Little_Tower    Molex_47948-0001_U.FL_Hirose_U.FL-R-SMT-1_Vertical    17.3400   -19.1200  -135.0000  top
 J10       CF/Prog         JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal       26.9400    -3.2200  180.0000  top
