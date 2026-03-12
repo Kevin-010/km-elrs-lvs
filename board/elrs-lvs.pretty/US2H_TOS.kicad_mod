@@ -1,9 +1,9 @@
 (footprint "US2H_TOS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(tags "CUHZ16V_H3F ")
+	(tags "CUHZ16V_H3F Diode")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(unlocked yes)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "28ca0f2c-0c43-4410-b728-f6b57f5115fd")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -72,7 +60,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ca1b7549-f8b5-412e-b2d3-af4ebf006778")
 	)
@@ -254,7 +242,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "18f5b5a4-b4b2-443d-9383-4296fcc96f31")
 	)
@@ -273,13 +261,14 @@
 	(pad "1" smd rect
 		(at -0.65 0)
 		(size 2 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "df4245c4-5144-4f82-82c3-9562b7edec0b")
 	)
 	(pad "2" smd rect
 		(at 1.25 0)
 		(size 0.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "318d0431-82c4-4948-a2ad-3ce62f27a933")
 	)
+	(embedded_fonts no)
 )
