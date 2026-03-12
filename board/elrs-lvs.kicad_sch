@@ -9431,7 +9431,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 105.41 0)
 			(effects
 				(font
@@ -9600,6 +9600,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C93943"
+			(at 260.35 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5c32256-74f9-42d6-9e59-ca1270ab10f8")
 		)
@@ -9694,7 +9703,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 90.17 0)
 			(effects
 				(font
@@ -9916,15 +9925,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 140.97 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-07470RL/5895678"
 			(at 140.97 27.94 0)
 			(effects
@@ -9935,6 +9935,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-07470RL"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144711"
 			(at 140.97 27.94 0)
 			(effects
 				(font
@@ -10102,6 +10111,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 222.25 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8ef0f3c-795f-4582-bfc9-f6db425d4ef0")
 		)
@@ -10191,15 +10209,6 @@
 			)
 		)
 		(property "Manufacturer" "Hirose Electric"
-			(at 232.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 232.41 135.89 0)
 			(effects
 				(font
@@ -10302,7 +10311,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 97.79 0)
 			(effects
 				(font
@@ -10454,15 +10463,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 39.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/samtec-inc/TSW-104-25-G-T-RA/7864909"
 			(at 39.37 193.04 0)
 			(effects
@@ -10581,6 +10581,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138288"
+			(at 60.96 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3b568bc-d194-4f4e-99f7-b86dc0376a59")
 		)
@@ -10651,15 +10660,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402FR-0740K2L/5895346"
 			(at 78.74 39.37 0)
 			(effects
@@ -10679,6 +10679,15 @@
 			)
 		)
 		(property "Part" "AC0402FR-0740K2L"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144760"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -10781,6 +10790,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4001349"
+			(at 232.41 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8960f050-8b7c-4c64-86b1-557192b636fd")
 		)
@@ -10850,15 +10868,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPSM82901SISR/17394938"
 			(at 73.66 30.48 0)
 			(effects
@@ -10878,6 +10887,15 @@
 			)
 		)
 		(property "Part" "TPSM82901SISR"
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6290581"
 			(at 73.66 30.48 0)
 			(effects
 				(font
@@ -11066,6 +11084,15 @@
 		)
 		(property "Part" "RC0402FR-0747KL"
 			(at 260.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C93943"
+			(at 260.35 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,6 +11393,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 260.35 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "425c2274-55ce-47ea-a47c-4465e5bafb54")
 		)
@@ -11435,15 +11471,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 46.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/SMD1210B075TF-24/15212934"
 			(at 46.99 27.94 0)
 			(effects
@@ -11464,6 +11491,15 @@
 		)
 		(property "Part" "SMD1210B075TF/24"
 			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C634245"
+			(at 46.99 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,15 +11642,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 123.19 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 123.19 193.04 0)
 			(effects
 				(font
@@ -11780,16 +11807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 129.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/panjit-international-inc/PJGBLC03C-AU-R1-000A1/15797697"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/panjit-international-inc/PJGBLC03-AU-R1-000A1/15798010?s=N4IgTCBcDaIAoCkDiAhAMgYQAwGYC0AggKogC6AvkA"
 			(at 129.54 31.75 0)
 			(effects
 				(font
@@ -11807,8 +11825,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "PJGBLC03C-AU_R1_000A1"
+		(property "Part" "PJGBLC03-AU_R1_000A1"
 			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6951951"
+			(at 129.54 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,6 +11998,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-07100RL"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138288"
 			(at 46.99 181.61 0)
 			(effects
 				(font
@@ -12273,6 +12309,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C93943"
+			(at 260.35 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b349c939-8a67-46c0-99d7-a07b23bd46f0")
 		)
@@ -12352,15 +12397,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -12481,6 +12517,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C93943"
+			(at 260.35 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29df3710-32c7-4605-b953-4b8e7e0ba7b4")
 		)
@@ -12560,15 +12605,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 127 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
 			(at 127 83.82 0)
 			(effects
@@ -12579,6 +12615,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-0710KL"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144731"
 			(at 127 83.82 0)
 			(effects
 				(font
@@ -12656,15 +12701,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 67.31 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 67.31 193.04 0)
 			(effects
 				(font
@@ -12788,6 +12824,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4001349"
+			(at 232.41 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebb16f46-ca43-492e-bad2-6012ecae9364")
 		)
@@ -12875,6 +12920,15 @@
 		)
 		(property "Part" "RC0402FR-0747KL"
 			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C93943"
+			(at 260.35 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
+		(property "LCSC" "C2651081"
 			(at 219.71 133.35 0)
 			(effects
 				(font
@@ -13155,15 +13209,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 219.71 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 219.71 97.79 0)
 			(effects
 				(font
@@ -13466,15 +13511,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 53.34 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/samtec-inc/TSW-104-25-G-T-RA/7864909"
 			(at 53.34 193.04 0)
 			(effects
@@ -13656,6 +13692,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138288"
+			(at 154.94 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f4beeeb-31e5-4eac-99d1-568379159901")
 		)
@@ -13745,6 +13790,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-07100RL"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138288"
 			(at 130.81 181.61 0)
 			(effects
 				(font
@@ -13847,7 +13901,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 93.98 0)
 			(effects
 				(font
@@ -14058,16 +14112,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
-			(at 186.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
+		(property "LCSC" "C2168479"
 			(at 186.69 62.23 0)
 			(effects
 				(font
@@ -14238,15 +14283,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 99.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part" "AC0402JR-07100RL"
 			(at 99.06 38.1 0)
 			(effects
@@ -14266,6 +14302,15 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-07100RL/5895570"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138288"
 			(at 99.06 38.1 0)
 			(effects
 				(font
@@ -14368,7 +14413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 82.55 0)
 			(effects
 				(font
@@ -14537,7 +14582,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
+		(property "Mouser" "810-MLZ2012M150WT000"
 			(at 214.63 101.6 0)
 			(effects
 				(font
@@ -14546,8 +14591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-MLZ2012M150WT000"
-			(at 214.63 101.6 0)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk/MLZ2012M150WT000/2465154"
+			(at 214.63 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14823,7 +14868,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14833,15 +14878,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14965,6 +15001,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138288"
+			(at 74.93 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55bd30b3-398b-462e-a890-dde79ebb6895")
 		)
@@ -15052,6 +15097,15 @@
 		)
 		(property "Part" "RC0402DR-07470KL"
 			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4001349"
+			(at 232.41 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15268,15 +15322,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 25.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/samtec-inc/TSW-104-25-G-T-RA/7864909"
 			(at 25.4 193.04 0)
 			(effects
@@ -15375,15 +15420,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/mitsumi-electric-company-ltd/R-668048/11591275"
 			(at 19.05 82.55 0)
 			(effects
@@ -15394,6 +15430,15 @@
 			)
 		)
 		(property "Part" "R-668048"
+			(at 19.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4364937"
 			(at 19.05 82.55 0)
 			(effects
 				(font
@@ -15471,15 +15516,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 81.28 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 81.28 193.04 0)
 			(effects
 				(font
@@ -15736,6 +15772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 260.35 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "881c5153-2efe-41a4-b028-ce9709e8f816")
 		)
@@ -15805,15 +15850,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 109.22 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 109.22 193.04 0)
 			(effects
 				(font
@@ -15922,7 +15958,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C125969"
+		(property "LCSC" "C2151551"
 			(at 189.23 143.51 0)
 			(effects
 				(font
@@ -15951,15 +15987,6 @@
 			)
 		)
 		(property "Part" "SX1281IMLTRT"
-			(at 190.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 190.5 115.57 0)
 			(effects
 				(font
@@ -16191,6 +16218,15 @@
 		)
 		(property "Part" "RC0402DR-07470KL"
 			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4001349"
+			(at 232.41 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,7 +16512,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
+		(property "LCSC" "C967022"
+			(at 74.93 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-PICO-V3/11613122"
 			(at 74.93 118.11 0)
 			(effects
 				(font
@@ -16721,7 +16766,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
+		(property "LCSC" "C152351"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/molex/0479480001/2683663?s=N4IgTCBcDaICwHYCccAcBaADNgjCAugL5A"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -16824,6 +16878,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 260.35 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8950ba8-e803-4cec-817f-072c0ba1d817")
 		)
@@ -16918,6 +16981,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C93943"
+			(at 260.35 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d854f3-aeae-47b1-b278-32eeda0e4080")
 		)
@@ -16987,15 +17059,6 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 95.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 95.25 193.04 0)
 			(effects
 				(font
@@ -17319,6 +17382,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138288"
+			(at 154.94 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "865031ae-c782-428a-9ac8-faf3b9e83285")
 		)
@@ -17406,6 +17478,15 @@
 		)
 		(property "Part" "RC0402DR-07470KL"
 			(at 232.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4001349"
+			(at 232.41 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,6 +17721,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 260.35 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "955aaffc-7f93-427c-90e7-9055367b1cef")
 		)
@@ -17727,6 +17817,15 @@
 		)
 		(property "Part" "RC0402FR-0747KL"
 			(at 260.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C93943"
+			(at 260.35 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17823,6 +17922,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-07100RL"
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138288"
 			(at 102.87 181.61 0)
 			(effects
 				(font
@@ -17977,15 +18085,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 69.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -18166,6 +18265,15 @@
 		)
 		(property "Part" "RC0402DR-07470KL"
 			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4001349"
+			(at 232.41 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18374,7 +18482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 62.23 73.66 0)
 			(effects
 				(font
@@ -18384,15 +18492,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 62.23 73.66 0)
 			(effects
 				(font
@@ -18513,7 +18612,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 101.6 0)
 			(effects
 				(font
@@ -18726,15 +18825,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 62.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
 			(at 62.23 31.75 0)
 			(effects
@@ -18754,6 +18844,15 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GRJ21BR61E106KE01K/10705983"
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5646740"
 			(at 62.23 31.75 0)
 			(effects
 				(font
@@ -18841,15 +18940,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 140.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LY-Q976-01-Q1R2-36-1/21556496"
 			(at 140.97 35.56 0)
 			(effects
@@ -18861,6 +18951,15 @@
 		)
 		(property "Part" "LY Q976.01-Q1R2-36-1"
 			(at 140.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20562575"
+			(at 140.97 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19029,6 +19128,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 260.35 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5919738-08a4-4adc-877e-86fdf453b42c")
 		)
@@ -19123,6 +19231,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C163475"
+			(at 260.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fac027bd-846b-4bb2-80bb-5dbc821326bb")
 		)
@@ -19192,7 +19309,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -19202,15 +19319,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 191.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -19316,15 +19424,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 25.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105MQ5NNNC/3886893"
 			(at 25.4 86.36 0)
 			(effects
@@ -19335,6 +19434,15 @@
 			)
 		)
 		(property "Part" "CL05A105MQ5NNNC"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318573"
 			(at 25.4 86.36 0)
 			(effects
 				(font
@@ -19705,6 +19813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4001349"
+			(at 232.41 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e826b3fd-9fc1-490b-8346-f10b6b3c769b")
 		)
@@ -19775,15 +19892,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 53.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/CUHZ16V-H3F/15857862"
 			(at 53.34 33.02 0)
 			(effects
@@ -19804,6 +19912,15 @@
 		)
 		(property "Part" "CUHZ16V,H3F"
 			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7236804"
+			(at 53.34 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19900,6 +20017,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-07100RL"
+			(at 116.84 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138288"
 			(at 116.84 181.61 0)
 			(effects
 				(font
@@ -20054,15 +20180,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 185.42 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -20290,7 +20407,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22434896"
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -20327,15 +20444,6 @@
 			)
 		)
 		(property "Part" "ECS-TXO-20CSMV4-520-AN-TR"
-			(at 186.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -20427,15 +20535,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 137.16 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/mitsumi-electric-company-ltd/R-668048/11591275"
 			(at 137.16 87.63 0)
 			(effects
@@ -20446,6 +20545,15 @@
 			)
 		)
 		(property "Part" "R-668048"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4364937"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -20553,8 +20661,8 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 151.13 133.604 0)
+		(property "Value" "WS2812B 2020"
+			(at 154.178 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20599,7 +20707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "1528-4684-ND"
+		(property "Digikey" "1528-4684-ND (Adafruit 4684)"
 			(at 140.97 137.16 0)
 			(effects
 				(font
@@ -20608,7 +20716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Adafruit"
+		(property "Manufacturer" "Multiple"
 			(at 140.97 137.16 0)
 			(effects
 				(font
@@ -20617,16 +20725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "4684"
-			(at 140.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
+		(property "Part" "WS2812B-2020"
 			(at 140.97 137.16 0)
 			(effects
 				(font
@@ -20801,6 +20900,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C93943"
+			(at 260.35 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fb2cbad-7332-4ea6-9430-5f175d30a736")
 		)
@@ -20871,15 +20979,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 115.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
 			(at 115.57 31.75 0)
 			(effects
@@ -20899,6 +20998,15 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7S1A226M125AC/3951796"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2167548"
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -21043,16 +21151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 198.12 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Seikio Epson" ""
+		(property "LCSC" "C100072"
 			(at 198.12 58.42 0)
 			(effects
 				(font
@@ -21314,7 +21413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -21417,6 +21516,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4001349"
+			(at 232.41 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "937c43f5-16dd-4de5-8468-ab5e5cc0db1e")
 		)
@@ -21504,6 +21612,15 @@
 		)
 		(property "Part" "RC0402FR-07270KL"
 			(at 260.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C163475"
+			(at 260.35 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21608,6 +21725,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138288"
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41a795a1-46c8-4029-9ce9-5cd796fdd67a")
 		)
@@ -21687,15 +21813,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 25.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571"
 			(at 25.4 78.74 0)
 			(effects
@@ -21706,6 +21823,15 @@
 			)
 		)
 		(property "Part" "AC0402JR-0710KL"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144731"
 			(at 25.4 78.74 0)
 			(effects
 				(font
@@ -21877,6 +22003,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138288"
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eed6cd18-9281-412d-ac67-aaa3b3ce9421")
 		)
@@ -21956,15 +22091,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Seikio Epson" ""
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S7B-XH-A-1/9961926"
 			(at 222.25 66.04 0)
 			(effects
@@ -21975,6 +22101,15 @@
 			)
 		)
 		(property "Part" "S7B-XH-A-1"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C491713"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -22092,7 +22227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C100072"
 			(at 259.08 109.22 0)
 			(effects
 				(font
@@ -22188,6 +22323,15 @@
 		)
 		(property "Part" "RC0402FR-07270KL"
 			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C163475"
+			(at 260.35 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)

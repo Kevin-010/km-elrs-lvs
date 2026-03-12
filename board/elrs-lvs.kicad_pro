@@ -650,7 +650,7 @@
           "group_by": false,
           "label": "Alt part number",
           "name": "Alt part number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -663,12 +663,6 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Seikio Epson",
-          "name": "LCSC Seikio Epson",
-          "show": false
         },
         {
           "group_by": false,
@@ -688,7 +682,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Mouser"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
