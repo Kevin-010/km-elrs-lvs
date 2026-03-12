@@ -3602,6 +3602,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -9290,9 +9373,9 @@
 		(at 114.3 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0030ef5b-d743-4ab3-bf1d-5ff75489738f")
 		(property "Reference" "#PWR029"
@@ -10406,9 +10489,9 @@
 		(at 39.37 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25ed4ad1-73c2-450a-9344-1f54609bb2f5")
 		(property "Reference" "J2"
@@ -11188,7 +11271,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "30a2bc37-211f-4446-bf94-95ef02c288b4")
 		(property "Reference" "#PWR024"
@@ -11243,6 +11326,70 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3573bfe8-37ac-4e69-901c-61135fc00d69")
+		(property "Reference" "H2"
+			(at 256.54 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "elrs-lvs:MountingHole_JLC"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "elrs-lvs"
+				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11593,9 +11740,9 @@
 		(at 123.19 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3ad0c151-37c9-46de-b919-3b42f219f672")
 		(property "Reference" "J8"
@@ -12652,9 +12799,9 @@
 		(at 67.31 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5b10443f-18ea-4453-98c6-a68b89aea1e8")
 		(property "Reference" "J4"
@@ -12958,7 +13105,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e963eb4-90d5-4c1d-8efc-ba7db624f769")
 		(property "Reference" "#PWR03"
@@ -13321,9 +13468,9 @@
 		(at 44.45 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "63a216bd-3769-4f43-8cdd-2f8b27216e07")
 		(property "Reference" "#PWR07"
@@ -13454,9 +13601,9 @@
 		(at 53.34 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65aee3f4-b5d3-431f-a446-c7d324e90520")
 		(property "Reference" "J3"
@@ -15195,6 +15342,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81f2a7ee-11ab-4ccd-8ef5-b9ab7ec88afe")
+		(property "Reference" "H1"
+			(at 256.54 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "elrs-lvs:MountingHole_JLC"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 54.61 270)
 		(unit 1)
@@ -15265,9 +15476,9 @@
 		(at 25.4 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "841b6dea-3fc2-44a9-9901-523720ffdfe2")
 		(property "Reference" "J1"
@@ -15467,9 +15678,9 @@
 		(at 81.28 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84b03440-3599-42e3-90b5-3e17664c60ad")
 		(property "Reference" "J5"
@@ -15565,9 +15776,9 @@
 		(at 30.48 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84e0a4d4-72d7-4e88-b853-80009bbec0ea")
 		(property "Reference" "#PWR04"
@@ -15801,9 +16012,9 @@
 		(at 109.22 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8a6e74e5-3088-4a1d-9d2e-1ab6f7d371ae")
 		(property "Reference" "J7"
@@ -16086,7 +16297,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c728c4d-7072-4556-80fb-05b90a917bfc")
 		(property "Reference" "#PWR020"
@@ -17010,9 +17221,9 @@
 		(at 95.25 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "966e5961-f3d4-4d05-9419-766f5725d1ac")
 		(property "Reference" "J6"
@@ -17108,7 +17319,7 @@
 		(at 128.27 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17231,6 +17442,70 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a1079f-c5cc-4417-bbdf-dc51152b904e")
+		(property "Reference" "H3"
+			(at 256.54 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "elrs-lvs:MountingHole_JLC"
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "elrs-lvs"
+				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -17516,7 +17791,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9e84b6c8-d100-4ad0-a89d-0d136df88e8a")
 		(property "Reference" "#PWR09"
@@ -17961,7 +18236,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "adfa2229-b300-488d-bde4-541bf43a45a1")
 		(property "Reference" "#PWR028"
@@ -18131,9 +18406,9 @@
 		(at 72.39 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af87afbb-a99d-42ea-b44c-9c10a63bf43c")
 		(property "Reference" "#PWR016"
@@ -18643,7 +18918,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b6b7f0b2-66f0-4152-9b8c-09be1925b51f")
 		(property "Reference" "#PWR06"
@@ -19540,7 +19815,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c69da930-5371-4321-be59-ec6a947cfacd")
 		(property "Reference" "#PWR015"
@@ -19672,9 +19947,9 @@
 		(at 86.36 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c894a17e-6231-4235-a39c-e0c4bb1dc49e")
 		(property "Reference" "#PWR021"
@@ -20582,9 +20857,9 @@
 		(at 58.42 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d518eb41-2fcc-4201-89cd-c056a2b27eb5")
 		(property "Reference" "#PWR010"
@@ -21035,9 +21310,9 @@
 		(at 100.33 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e79f5d66-7105-4cff-a47a-31db59554ccd")
 		(property "Reference" "#PWR025"
@@ -22033,9 +22308,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8bd6a0d-dfc6-42dd-a176-4fb585319852")
 		(property "Reference" "J12"
 			(at 219.71 64.7699 0)

@@ -12,8 +12,6 @@
 "Y1","52Mhz TCXO","Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm","1","ECS-TXO-20CSMV4-520-AN-TR","ECS Inc.","","","50-ECS-TXO-20CSMV4-520-AN-TRCT-ND","C22434896",""
 "C3,C10,C11,C12,C14,C15,C16,C17,C18,C19,C20,C21","100n","Capacitor_SMD:C_0402_1005Metric","12","CL05A104KA5NNNC","Samsung","","","https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701","C100072",""
 "J10","CF/Prog","Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal","1","SM04B-GHS-TB","JST","","","https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788","C189895",""
-"J1,J2,J3,J4,J5,J6,J7,J8","PWM","elrs-lvs:PinHeader_1x03_P2.54mm_NoSilk","8","TSW-104-25-G-T-RA","Samtec","","","https://www.digikey.com/en/products/detail/samtec-inc/TSW-104-25-G-T-RA/7864909","",""
-"J12","Balance","elrs-lvs:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal_Zero_Clearance","1","S7B-XH-A-1","JST","","","https://www.digikey.com/en/products/detail/jst-sales-america-inc/S7B-XH-A-1/9961926","C491713",""
 "D3","Power","LED_SMD:LED_0603_1608Metric","1","LY Q976.01-Q1R2-36-1","osram","","","https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LY-Q976-01-Q1R2-36-1/21556496","C20562575",""
 "F1","500ma","Capacitor_SMD:C_1210_3225Metric","1","SMD1210B075TF/24","Yageo","","","https://www.digikey.com/en/products/detail/yageo/SMD1210B075TF-24/15212934","C634245",""
 "R1,R13","10k","Resistor_SMD:R_0402_1005Metric","2","AC0402JR-0710KL","Yageo","","","https://www.digikey.com/en/products/detail/yageo/AC0402JR-0710KL/5895571","C144731",""
