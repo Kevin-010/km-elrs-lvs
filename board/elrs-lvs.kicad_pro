@@ -122,8 +122,8 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -267,7 +267,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2"
+      "sch_revision": "2.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -786,7 +786,7 @@
         "uuid": "81cb56fa-888b-420d-b500-7b61befec0c1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U5,#PWR11,#PWR19,#PWR27,#PWR32-35,#PWR37-38,#PWR44,#PWR49,#PWR52,#PWR69,L2,C2,C5-6,C13,C22-31,R4-6,R49,JP1-3",
     "variants": []
   },
   "sheets": [

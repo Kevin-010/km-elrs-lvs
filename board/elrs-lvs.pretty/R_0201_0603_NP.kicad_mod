@@ -1,7 +1,7 @@
 (footprint "R_0201_0603_NP"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 	(tags "resistor solder jumper open")
@@ -9,7 +9,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "eb6494dd-a219-488c-9b7f-b284b4d55dd4")
+		(uuid "9ca49095-50cd-490f-866d-b473160ee8f7")
 		(effects
 			(font
 				(size 1 1)
@@ -20,22 +20,10 @@
 	(property "Value" "R_0201_0603_NP"
 		(at 0 1.05 0)
 		(layer "F.Fab")
-		(uuid "4bd29350-b1a5-4db3-b5a1-f8806dd2ae16")
+		(uuid "68cd725c-10f0-4f12-85e2-5f8dca99b039")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "feff97df-52c5-466e-bd94-b38e964d2d70")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -44,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "527d3daa-eca6-46fb-ba8b-5676c674f917")
+		(uuid "8a6df54e-df41-4238-b5a4-754f140c9e0f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bd6625eb-90d0-414f-9162-c21b0c3a94f7")
+		(uuid "575a02b8-99a9-4537-b803-73972020f146")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.475 -0.2)
 		(end 0.475 -0.2)
@@ -73,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3d3b0cef-c72e-4d0e-9e3e-5f45b4234821")
+		(uuid "645433f3-e40f-403b-9ffb-556eba70db96")
 	)
 	(fp_line
 		(start -0.475 0.2)
@@ -83,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3a0686a8-09d7-4745-be05-8e3fe4b77d4f")
+		(uuid "174718ab-c5d5-4740-9ed7-0ff44814c779")
 	)
 	(fp_line
 		(start 0.475 -0.2)
@@ -93,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4e8dde20-abd9-4d45-b40a-f9d3bbf07727")
+		(uuid "9e55cbe9-9685-4ea4-90b7-c896a6090f77")
 	)
 	(fp_line
 		(start 0.475 0.2)
@@ -103,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "770f2b18-e3fc-414b-9abf-6f9a5cd98ad9")
+		(uuid "204a5c22-8977-4c5d-bdcb-e35791fdf7ad")
 	)
 	(fp_line
 		(start -0.3 -0.15)
@@ -113,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4ea9258a-b88c-43dc-ad13-39be5c9dcae3")
+		(uuid "8f1c5468-c5cc-4ea2-8ec2-2a32c38dec24")
 	)
 	(fp_line
 		(start -0.3 0.15)
@@ -123,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9e3df9ff-4617-40a8-9647-125e6d5fd6ea")
+		(uuid "365288ab-78e0-4355-8959-972c563b4154")
 	)
 	(fp_line
 		(start 0.3 -0.15)
@@ -133,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c23d5620-7690-4502-a90a-75ec7d1b7310")
+		(uuid "ddd0fa66-b098-4a53-a4dc-5e9e28e37a2e")
 	)
 	(fp_line
 		(start 0.3 0.15)
@@ -143,12 +132,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d752ff25-c686-4f07-88c5-d1456894e290")
+		(uuid "5b192453-3d6f-4a64-a25b-c6b03cffe22f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.68 0)
 		(layer "F.Fab")
-		(uuid "0a54bf15-9d4e-4814-80cb-2739239df5fa")
+		(uuid "75718358-4658-4756-9a41-ecd3b3bc1562")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -159,17 +148,18 @@
 	(pad "1" smd roundrect
 		(at -0.3 0)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "38c732d7-a916-44eb-a333-fc6797ddc4c0")
+		(uuid "100196a4-102d-46be-ad60-4bf8562060d8")
 	)
 	(pad "2" smd roundrect
 		(at 0.3 0)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "08df04e4-3e25-42ab-9ef7-0f42b0ad9d5c")
+		(uuid "74634dfc-d0c5-4685-a9c2-19af73ea5d3e")
 	)
+	(embedded_fonts no)
 	(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0201_0603Metric.wrl"
 		(offset
 			(xyz 0 0 0)
