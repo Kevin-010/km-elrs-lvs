@@ -6738,6 +6738,17 @@
 		)
 		(uuid "875c3f81-80b8-4243-b97d-67d9f380b3c5")
 	)
+	(text "3.3v 0.5A"
+		(exclude_from_sim no)
+		(at 109.728 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "895132ad-4c63-4f5b-88c9-30da185dabba")
+	)
 	(text "Note: !PG reset is required due to esp32\nbrowout detection observed unreliable by itself"
 		(exclude_from_sim no)
 		(at 103.378 52.578 0)
@@ -11071,6 +11082,39 @@
 				)
 			)
 		)
+		(property "Digikey" "13-RT0402FRE07150KLCT-ND"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RT0402FRE07150KL"
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f632c44-263e-49dd-b7c9-4e5403598b1e")
 		)
@@ -11984,6 +12028,17 @@
 			)
 		)
 		(property "Manufacturer" "Hirose Electric"
+			(at 232.41 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "26-U.FL-R-SMT-1(80)CT-ND"
 			(at 232.41 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13095,6 +13150,50 @@
 				)
 			)
 		)
+		(property "Digikey" "478-KGM15CR51E226MTCT-ND"
+			(at 27.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " KYOCERA AVX"
+			(at 27.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "KGM15CR51E226MT"
+			(at 27.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt part number" "0603YD226MAT2A"
+			(at 27.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d901611c-9005-40c8-8626-87dfa1af4a31")
 		)
@@ -13188,6 +13287,17 @@
 			)
 		)
 		(property "Part" "TPS63070RNMR"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "296-44874-1-ND"
 			(at 85.09 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14429,6 +14539,50 @@
 				)
 			)
 		)
+		(property "Digikey" "478-KGM15CR51E226MTCT-ND"
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " KYOCERA AVX"
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "KGM15CR51E226MT"
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt part number" "0603YD226MAT2A"
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8585a58a-0670-43d9-b059-68d9b3801798")
 		)
@@ -14862,7 +15016,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "447e0c45-b410-46dd-ac40-4a6e968c64cf")
 		(property "Reference" "C30"
 			(at 48.768 162.052 0)
@@ -14875,7 +15029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 48.768 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14909,6 +15063,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 48.26 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 48.26 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15022,7 +15209,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "466fa708-ecdd-46fb-86b1-35a041d0b3fa")
 		(property "Reference" "C6"
 			(at 17.018 162.052 0)
@@ -15035,7 +15222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 17.018 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15069,6 +15256,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 16.51 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 16.51 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 16.51 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 16.51 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15315,6 +15535,39 @@
 				)
 			)
 		)
+		(property "Digikey" "535-AOTA-B160808S1R0MTCT-ND"
+			(at 85.09 17.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Abracon LLC"
+			(at 85.09 17.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "AOTA-B160808S1R0MT"
+			(at 85.09 17.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63648ece-aa33-4c52-a310-15b2c70ddb0e")
 		)
@@ -15497,7 +15750,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "54391c55-3637-4d96-b93c-0f062c80fcf2")
 		(property "Reference" "C13"
 			(at 23.368 162.052 0)
@@ -15510,7 +15763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 23.368 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15544,6 +15797,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 22.86 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 22.86 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 22.86 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 22.86 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16872,7 +17158,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "61dc84e3-c62e-4a5f-8e91-dc8189bae534")
 		(property "Reference" "JP2"
 			(at 67.31 45.212 0)
@@ -16917,6 +17203,39 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "CR0201-J/-000GLFCT-ND"
+			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CR0201-J/-000GLF"
 			(at 67.31 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20381,7 +20700,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "92812cdd-46a0-4db9-831f-a2179b85edc7")
 		(property "Reference" "JP1"
@@ -20430,6 +20749,39 @@
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
 			(at 102.87 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "CR0201-J/-000GLFCT-ND"
+			(at 102.87 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 102.87 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CR0201-J/-000GLF"
+			(at 102.87 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21393,7 +21745,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b410a5f-0dbe-49a2-8143-5d6a3e306b3c")
 		(property "Reference" "C22"
 			(at 29.718 162.052 0)
@@ -21406,7 +21758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 29.718 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21440,6 +21792,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 29.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 29.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 29.21 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -22733,7 +23118,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b0f2bad7-0053-418c-bf08-f18b7428c10a")
 		(property "Reference" "C28"
 			(at 36.068 162.052 0)
@@ -22746,7 +23131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 36.068 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22780,6 +23165,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 35.56 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 35.56 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 35.56 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -24031,7 +24449,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c2d462e9-b285-4aba-882f-25bcafe61ca9")
 		(property "Reference" "JP3"
 			(at 68.072 39.8779 90)
@@ -24079,6 +24497,39 @@
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
 			(at 69.85 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "CR0201-J/-000GLFCT-ND"
+			(at 69.85 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 69.85 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CR0201-J/-000GLF"
+			(at 69.85 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24816,7 +25267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "17v"
+		(property "Value" "16v"
 			(at 21.59 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25306,6 +25757,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4587-C0603B476M007TCT-ND"
+			(at 130.81 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Holy Stone Enterprise Co., Ltd."
+			(at 130.81 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "C0603B476M007T"
 			(at 130.81 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -26252,7 +26736,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de727458-410a-43a7-88e8-911ffe4fcd1a")
 		(property "Reference" "C31"
 			(at 55.118 162.052 0)
@@ -26265,7 +26749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 55.118 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26299,6 +26783,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 54.61 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -27471,7 +27988,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f62ca9b7-e765-4ed8-bc65-4af764dc5286")
 		(property "Reference" "C29"
 			(at 42.418 162.052 0)
@@ -27484,7 +28001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ">16v"
 			(at 42.418 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27518,6 +28035,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "587-3246-1-ND"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
+			(at 41.91 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TMK316BBJ226ML-T"
 			(at 41.91 163.83 0)
 			(hide yes)
 			(show_name no)
