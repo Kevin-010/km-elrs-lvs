@@ -13176,6 +13176,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TPS63070RNMR"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "b7178da4-2411-4b0d-a90d-0ccd7e5dcedc")
 		)
@@ -13410,7 +13432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.168 45.72 90)
+			(at 76.454 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
