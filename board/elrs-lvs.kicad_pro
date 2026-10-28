@@ -179,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -201,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -582,8 +585,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -660,66 +663,90 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Part",
-          "name": "Part",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
+          "label": "Do Not Place",
           "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
         },
         {
           "group_by": false,
           "label": "Alt part number",
           "name": "Alt part number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],
@@ -728,7 +755,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -787,7 +814,7 @@
         "uuid": "81cb56fa-888b-420d-b500-7b61befec0c1"
       }
     ],
-    "used_designators": "#PWR11,#PWR19,#PWR27,#PWR32-35,#PWR37-38,#PWR44,#PWR49,#PWR52,#PWR69,L2,C2,C5-6,C13,C22-31,JP1-3,R4-6,R49,U5",
+    "used_designators": "#PWR11,#PWR19,#PWR27,#PWR32-35,#PWR37-38,#PWR44,#PWR49,#PWR52,#PWR69,C2,C5-6,C13,C22-31,JP1-3,L2,R4-6,R49,U5",
     "variants": []
   },
   "sheets": [
