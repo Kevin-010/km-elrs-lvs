@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.7-9.0.7~ubuntu22.04.1"
+      "Version": "10.0.8-10.0.8~ubuntu24.04.1"
     },
-    "CreationDate": "2026-03-11T20:55:55-05:00"
+    "CreationDate": "2026-10-30T20:27:03-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "elrs-lvs",
       "GUID": "656c7273-2d6c-4767-932e-6b696361645f",
-      "Revision": "2"
+      "Revision": "2.1"
     },
     "Size": {
       "X": 46.1,
@@ -29,8 +29,8 @@
       "PadToTrack": 0.0914,
       "TrackToTrack": 0.0914,
       "MinLineWidth": 0.1016,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.0914,
+      "RegionToRegion": 0.0914
     },
     {
       "Layers": "Inner",
@@ -38,8 +38,8 @@
       "PadToTrack": 0.0,
       "TrackToTrack": 0.0914,
       "MinLineWidth": 0.1016,
-      "TrackToRegion": 0.19,
-      "RegionToRegion": 0.19
+      "TrackToRegion": 0.0914,
+      "RegionToRegion": 0.0914
     }
   ],
   "FilesAttributes": [
