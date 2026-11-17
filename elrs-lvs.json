@@ -23,5 +23,7 @@
 	"vbat_scale": 785,
 	"vbat_offset": 451,
 	"vbat_atten": 7,
+	"vbat_cal_min": 3000,
+	"vbat_cal_max": 12600,
 	"lvs_inputs": [34, 33, 32, 39, 38, 37, 36]
 }

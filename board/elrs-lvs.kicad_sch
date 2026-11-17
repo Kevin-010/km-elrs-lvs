@@ -7249,6 +7249,12 @@
 		(uuid "bd0cab18-cbcd-43dc-8f8b-b749aaef2395")
 	)
 	(junction
+		(at 227.33 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1d369ca-a9c6-440e-a1bc-3dc13f072306")
+	)
+	(junction
 		(at 267.97 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7923,6 +7929,16 @@
 			(type default)
 		)
 		(uuid "1e31f775-1190-4a7e-ba63-a9d3400cd560")
+	)
+	(wire
+		(pts
+			(xy 218.44 73.66) (xy 227.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e39465-2eb4-4d96-9f98-e29add26e803")
 	)
 	(wire
 		(pts
@@ -9563,6 +9579,16 @@
 			(type default)
 		)
 		(uuid "cf6ef33e-d58a-4b0b-abce-ec2aebd4239b")
+	)
+	(wire
+		(pts
+			(xy 218.44 73.66) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf766404-9d80-41f5-bce7-05266bc98688")
 	)
 	(bus
 		(pts
@@ -13684,6 +13710,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 218.44 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31dc4fa5-6d7b-43ee-b72f-c9a2cd7075f4")
+		(property "Reference" "R50"
+			(at 220.98 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47k"
+			(at 220.98 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747KL/726616"
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RC0402FR-0747KL"
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C93943"
+			(at 218.44 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84537718-8efa-4572-99b1-ef42677b807b")
+		)
+		(pin "2"
+			(uuid "fb56db99-b992-4767-9f9e-1524028b995f")
+		)
+		(instances
+			(project "elrs-lvs"
+				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 219.71 97.79 90)
 		(unit 1)
@@ -13693,10 +13845,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32882b05-4c7f-4e4c-a533-35006a99c9ed")
 		(property "Reference" "C2"
-			(at 219.71 90.17 90)
+			(at 217.678 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13706,7 +13857,7 @@
 			)
 		)
 		(property "Value" ">470n"
-			(at 219.71 92.71 90)
+			(at 223.012 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22489,6 +22640,84 @@
 			(project "elrs-lvs"
 				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a18d9360-996f-4c08-98c0-6114eb3d90b2")
+		(property "Reference" "#PWR022"
+			(at 218.44 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0118379-cee7-4ecc-995d-dcb1c22ecebb")
+		)
+		(instances
+			(project "elrs-lvs"
+				(path "/81cb56fa-888b-420d-b500-7b61befec0c1"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
