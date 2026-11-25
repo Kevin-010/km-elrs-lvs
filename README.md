@@ -6,7 +6,7 @@ This was created as a personal project to offset having used propreitary radio s
 Specs:
 - ESP32 (PICO-V3) processor
 - SX1280/1281 telemetry radio (direct 1x1, +12.5dBm) anything fancier isn't necessary for outdoor los on a small/medium plane (but more importantly would have been less likely to succeed when hand built)
-- 1-3s (3.0-17v) input/servo power, with external brownout detector (the esp builtin one is problematic)
+- 1-3s (2.6-12.6v) input/servo power, with external brownout detector (the esp builtin one is problematic)
 - 8 Channel PWM output, on standard servo pin headers
 - JST GH CRSF/Serial/programming connector (similar to radiomaster cables)
 - 7 channel voltage sense connector, measuring -5 to +35v (for 2-6s standard lipo balance plugs)
