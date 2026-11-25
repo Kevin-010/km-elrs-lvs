@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.8-10.0.8~ubuntu24.04.1"
     },
-    "CreationDate": "2026-10-30T20:27:03-05:00"
+    "CreationDate": "2026-11-24T21:34:35-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "elrs-lvs",
       "GUID": "656c7273-2d6c-4767-932e-6b696361645f",
-      "Revision": "2.1"
+      "Revision": "2.2"
     },
     "Size": {
       "X": 46.1,

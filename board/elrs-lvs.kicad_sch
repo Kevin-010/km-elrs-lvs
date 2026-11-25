@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ELRS-LVS")
-		(date "2026-10-27")
-		(rev "2.1")
+		(date "2026-11-24")
+		(rev "2.2")
 		(company "Kevin Malec")
 	)
 	(lib_symbols
@@ -6541,7 +6541,7 @@
 		)
 		(uuid "106cea77-f2ab-4a33-9023-093eb3f06243")
 	)
-	(text "V2: invert serial connector pinout (to match radiomaster),\nremove test points, re-layout for single sided and larger (cheaper) clearances\n(v2 never built due to part availability)\nV2.1: change to buck-boost regulator (more available), remove EN button to save space"
+	(text "V2(never built due to part availability): invert serial connector pinout (to match radiomaster),\nremove test points, re-layout for single sided and larger (cheaper) clearances\nV2.1: change to buck-boost regulator (more available), remove EN button to save space\nV2.2 (after prototype testing): Add resistor between cell0 and ground to allow voltage\n measurement of a disconnected battery"
 		(exclude_from_sim no)
 		(at 177.8 166.878 0)
 		(effects
@@ -15264,7 +15264,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "447e0c45-b410-46dd-ac40-4a6e968c64cf")
 		(property "Reference" "C30"
 			(at 48.768 162.052 0)
@@ -15457,7 +15457,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "466fa708-ecdd-46fb-86b1-35a041d0b3fa")
 		(property "Reference" "C6"
 			(at 17.018 162.052 0)
@@ -16020,7 +16020,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "54391c55-3637-4d96-b93c-0f062c80fcf2")
 		(property "Reference" "C13"
 			(at 23.368 162.052 0)
@@ -22059,7 +22059,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b410a5f-0dbe-49a2-8143-5d6a3e306b3c")
 		(property "Reference" "C22"
 			(at 29.718 162.052 0)
@@ -23510,7 +23510,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b0f2bad7-0053-418c-bf08-f18b7428c10a")
 		(property "Reference" "C28"
 			(at 36.068 162.052 0)
@@ -27183,7 +27183,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de727458-410a-43a7-88e8-911ffe4fcd1a")
 		(property "Reference" "C31"
 			(at 55.118 162.052 0)
@@ -28457,7 +28457,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f62ca9b7-e765-4ed8-bc65-4af764dc5286")
 		(property "Reference" "C29"
 			(at 42.418 162.052 0)
