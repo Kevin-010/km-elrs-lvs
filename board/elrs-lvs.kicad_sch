@@ -14500,6 +14500,17 @@
 				)
 			)
 		)
+		(property "Alt part number" "PPTC1210E3050V30"
+			(at 16.51 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ecacb7e4-b5b1-4a61-b493-f478d44380c3")
 		)
